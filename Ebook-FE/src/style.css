@@ -1,0 +1,175 @@
+.book-border {
+    border-radius: 12px;
+    background: linear-gradient(
+            90deg,
+            rgba(2, 0, 36, 0.39),
+            rgba(0, 0, 0, 0.5) 1.83%,
+            hsla(0, 0%, 100%, 0.36) 3.21%,
+            rgba(0, 0, 0, 0.33) 4.72%,
+            rgba(247, 254, 255, 0.28) 9.84%,
+            hsla(0, 0%, 100%, 0) 47.85%
+    );
+}
+
+.v-modal {
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    opacity: 0.5;
+    background: #000;
+}
+
+.dialog-login {
+    max-width: 100% !important;
+    background-color: rgba(18, 18, 20, 0.8) !important;
+    border-radius: 20px !important;
+    box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.05);
+    -webkit-backdrop-filter: blur(20px);
+    backdrop-filter: blur(20px);
+    border: 1px solid hsla(0, 0%, 100%, 0.1);
+}
+
+.el-dialog {
+    position: relative;
+    margin: 0 auto 50px;
+    background: #fff;
+    border-radius: 2px;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.3);
+    box-sizing: border-box;
+    width: 50%;
+}
+
+.text-13-13 {
+    line-height: 1;
+}
+
+.custom-dropdown > .el-input > .el-input__inner {
+    background: none;
+    border: 0;
+    padding: 0;
+    --tw-text-opacity: 1;
+    color: #f2f2f2;
+    font-size: 1rem;
+    line-height: 1;
+    height: 30px;
+}
+
+.blur-layer-1,
+.blur-layer-2 {
+    width: min(771px, 50%);
+    flex-shrink: 0;
+    filter: blur(170px);
+}
+
+.blur-layer-1 {
+    height: 504px;
+    border-radius: 771px;
+    opacity: 0.5;
+    background: linear-gradient(180deg, #16b68e -16.8%, #0b5b47 117.58%);
+}
+
+.blur-layer-2 {
+    height: 847px;
+    border-radius: 847px;
+    opacity: 0.2;
+    background-color: #fff;
+}
+
+#inputSearch {
+    padding: 0.5rem;
+    background-color: rgb(55 65 81);
+    border-color: rgb(209 213 219);
+    border-radius: 0.25rem;
+    color: white;
+}
+
+#inputSearch::placeholder {
+    color: lightgrey;
+}
+
+#TableData {
+    width: 100%;
+    table-layout: auto;
+    background-color: rgb(55 65 81);
+    color: white;
+}
+
+#TableData:hover {
+    background-color: rgb(55 65 81);
+}
+
+#react-paginate ul {
+    display: inline-block;
+    margin-left: 20px;
+    padding-left: 0;
+}
+
+#react-paginate li {
+    display: inline-block;
+    border: 1px solid rgb(224, 224, 224);
+    color: #000;
+    cursor: pointer;
+    margin-right: 3px;
+    border-radius: 5px;
+    margin-bottom: 5px;
+}
+
+#react-paginate li a {
+    padding: 2px 5px;
+    display: inline-block;
+    color: #000;
+    outline: none;
+}
+
+#react-paginate li.active {
+    background: rgb(224, 224, 224);
+    outline: none;
+}
+
+.ant-popconfirm-buttons .ant-btn-primary{
+     /* Định nghĩa hiệu ứng hover */
+    background-color: rgb(255, 6, 6); /* Ví dụ đổi màu nền */
+    cursor: pointer; /* Hiển thị con trỏ chỉ tay */
+}
+.ant-modal-footer .ant-btn-primary{
+     /* Định nghĩa hiệu ứng hover */
+    background-color: rgb(255, 6, 6); /* Ví dụ đổi màu nền */
+    cursor: pointer; /* Hiển thị con trỏ chỉ tay */
+}
+
+.disabled {
+  pointer-events: none;
+  opacity: 0.5;
+}
+
+
+.custom-table {
+  background-color: rgb(31 41 55 / var(--tw-bg-opacity, 1));
+  color: white;
+}
+
+.custom-table .ant-table-thead > tr > th {
+  background-color: rgb(31 41 55 / var(--tw-bg-opacity, 1));
+  color: white;
+}
+
+.custom-table .ant-table-tbody > tr > td {
+  background-color: rgb(31 41 55 / var(--tw-bg-opacity, 1));
+  color: white;
+}
+
+.custom-table .ant-table-pagination {
+  background-color: rgb(31 41 55 / var(--tw-bg-opacity, 1));
+  color: white;
+}
+
+.custom-table .ant-table-tbody > tr:hover > td {
+  background-color: rgb(31 41 55 / var(--tw-bg-opacity, 1)) !important;
+}
+
+.custom-modal {
+  background-color: rgb(31 41 55 / var(--tw-bg-opacity, 1));
+  color: white;
+}
